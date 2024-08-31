@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="css/styles.css">
+        <script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script type = "text/javascript" src = "test.js"></script>
+    </head>
+    
+    <body>
+        <div class="navbar" style="position: fixed;" id="navbar">
+            <button id="close" style="text-align: center; margin-bottom: 0;">&times;</button>
+            <a href="#prog" class="sidelinks" role="button"><h4 class = "sidelabel">Programs</h4></a>
+            <a href="#proj" class="sidelinks" role="button"><h4 class = "sidelabel">Projects</h4></a>
+            <a href="#exp" class="sidelinks" role="button"><h4 class = "sidelabel">Experience</h4></a>
+            <a href="#skill" class="sidelinks" role="button"><h4 class = "sidelabel">Skills</h4></a>
+            <a href="#abt" class="sidelinks" role="button"><h4 class = "sidelabel">About Me</h4></a>
+        </div>
+        <div class = "main" id = "main">
+            <div class = "head" id = "head">
+                <button id="open">&#9776;</button>
+                <center>
+                    <h1 id = "title">Alexsandra Gao</h1>
+                </center>
+            </div>
+            <div class = "about" id="about">
+                <a id = "abt"><h2>About Me</h2></a>
+                <img src="pic/profilepic2.JPG" id="profilepic">
+                <p style = "width: 48%; display: inline-block; margin-left: 50px; font-size: 20px; font-family: Courier New; margin-bottom: 30px;">
+                    My name is Alexsandra Gao, and I have been a backend software engineer at VMware's vRealize Network Insight team since 2022. 
+                    At my current role, I primarily use Java and Python to tackle feature development and distributed system related problems.
+                    <br>
+                    <br>
+                    In May 2022, I graduated from Barnard College of Columbia University majoring in Mathematics and Computer Science. 
+                    I hope to apply my interests in NLP and HCI to make technology accessible for all individuals, 
+                    and especially within the problem space of drug discovery and cancer research. 
+                    Outside of work, I enjoy baking, gymnastics, swimming, and surfing.
+                    <br>
+                    <br>
+                    Feel free to connect with me on LinkedIn or email me at alexsandragao@gmail.com.
+                </p>
+                <div id="socials">
+                    <h3 style="margin-right: 30px;">Socials</h3>
+                    <a href="mailto:alexsandragao@gmail.com"><button class="socialbuttons" style="background-image: url(pic/social.PNG);"></button></a>
+                    <a href="https://www.linkedin.com/in/alexsandra-gao"><button class="socialbuttons" style="background-image: url(pic/li.PNG);"></button></a>
+                    <a href="https://github.com/alexsandragao"><button class="socialbuttons" style="background-image: url(pic/github.PNG);"></button></a>
+                    <a href="https://devpost.com/alexsandragao"><button class="socialbuttons" style="background-image: url(pic/devpost.PNG);"></button></a>
+                </div>
+            </div>
+            <div class= "skills" id="skills">
+                <a id = "skill"><h2>Skills and Software</h2></a>
+                <p style = "display: inline-block; margin-left: 30px; margin-right: 40px; width: 40%; font-size: 20px; font-family: Courier New;">
+                    I have experience with full stack web development in my previous internships, research, personal
+                    projects, and as well as in my course work. I have also worked with Angular, React, Gin, and Flask frameworks,
+                    PostgreSql, SQL Developer, Bootstrap, Golang, Typescript, and C.
+                </p>
+                <div id = "lang">
+                    <h3>Java: </h3>
+                    <div class="pbar1">
+                        <div class="pbar2">Expert</div>
+                    </div>
+                    <h3>Python: </h3>
+                    <div class="pbar1">
+                        <div class="pbar2">Expert</div>
+                    </div>
+                    <h3>Javascript: </h3>
+                    <div class="pbar1">
+                        <div class="pbar3">Proficient</div>
+                    </div>
+                    <h3>HTML/CSS: </h3>
+                    <div class="pbar1">
+                        <div class="pbar3">Proficient</div>
+                    </div>
+                    <h3>SQL: </h3>
+                    <div class="pbar1">
+                        <div class="pbar3">Proficient</div>
+                    </div>
+                     
+                </div>
+            </div>
+            <div class= "experience" id="experiences">
+                <a id = "exp"><h2>Professional Experience</h2></a>
+                <center>
+                    <div class="cards" id="experience">
+                        <h3>VMware/Broadcom - R&D Software Engineer</h3>
+                        <h5>July 2022 - Current</h5>
+                        <p>
+                            <li>
+                                Developed a client focused feature in Python and Java for network assurance verification intents.
+                            </li>
+                            <li>
+                                Refined a data processing system and refactored the REST API layer to adhere with these new changes by
+                                setting new bounds to reflect the performance capabilities of the system.                                
+                            </li>
+                            <li>
+                                Automated e2e testing for new customer based features using Typescript and Selenium WebDriver framework.
+                            </li>
+                            <li>
+                                Wrote unit and functional tests using Junit and Mockito frameworks, refactored Docker file to run these tests.
+                            </li>
+                        </p>
+                    </div>
+                    <div class="cards" id="experience">
+                        <div class="front">
+                            <h3>Tesla - Software Engineer Intern</h3>
+                            <h5>Sept 2021 - Dec 2021</h5>
+                        </div>
+                        <div class="back">
+                            <p>
+                                <li>
+                                    Designed a visual charting feature for warehouse order metrics using Angular, AG Charts, and Grid libraries.
+                                </li>
+                                <li>
+                                    Created API methods using Golang and Gin, and ensured their reliability through unit testing; integrated the
+                                    workflow with Docker, Linter, and Jenkins for CI/CD.                                
+                                </li>
+                            </p>
+                        </div>
+                        
+                    </div>
+                    <div class="cards" id="experience">
+                        <h3>JPMorgan - Software Engineer Intern</h3>
+                        <h5>June 2021 - Aug 2021</h5>
+                        <p>
+                            <li>
+                                Trained and integrated an NLP model in Python using Rasa and spaCy libraries to enhance user navigation.
+                            </li>
+                            <li>
+                                Revamped a reporting platform for C-suite executives to enhance user experience and ensure seamless
+                                navigation and engagement, leveraging ReactJS and Bootstrap for UI and Flask for backend integrations.    
+                            </li>
+                        </p>
+                    </div>
+                </center>
+            </div>
+            <div class= "projects" id="projects">
+                <a id = "proj"><h2>Personal Projects</h2></a>
+                <center>
+                    <div class ="cards" id = "project">
+                        <h3>Image Captioning with LSTM Generator - NLP Course</h3>
+                        <h5>April 2022</h5>
+                        <p>
+                            <li>
+                                Developed a LSTM language generator for image captioning, incorporating beam search for enhanced accuracy.    
+                            </li>
+                        </p>
+                    </div>
+                    <div class ="cards" id = "project">
+                        <h3>Technical Project Manager - Columbia University</h3>
+                        <h5>January - May 2022</h5>
+                        <p>
+                            <li>
+                                Spearheaded the creation of an intuitive and user friendly interface for a nutrition app, imparted technical guidance to members,
+                                fostering skill development and project success; facilitated SCRUM sessions to enhance project efficiency.
+                            </li>
+                        </p>
+                    </div>
+                    <div class ="cards" id = "project">
+                        <h3>Research Assistant - Columbia University</h3>
+                        <h5>January - April 2021</h5>
+                        <p>
+                            <li>
+                                Implemented PATH ORAM protocol on accelerators to randomize memory access patterns and make oblivious.
+                            </li>
+                            <li>
+                                Created a wrapper using C around accelerator to make memory addresses undecryptable using ML techniques.
+                            </li>
+                        </p>
+                    </div>
+                </center>
+            </div>
+            <div class= "programs" id="programs">
+                <a id = "prog"><h2>Programs</h2></a>
+                <center>
+                    <div class ="cards" id ="program">
+                        <h3>Google CS Research Mentorship Program</h3>
+                        <p>
+                            A 12 week program where students meet up on a weekly basis with their POD groups and Google mentor to guide
+                            them through their research journey.
+                        </p>
+                    </div>
+                    <div class ="cards" id ="program">
+                        <h3>Citi Women Mentorship Program</h3>
+                        <p>
+                            A 3 month program to help prepare undergraduate women to interview in the field of banking and finance.
+                        </p>
+                    </div>
+                    <div class ="cards" id ="program">
+                        <h3>Nomura Explore Program</h3>
+                        <p>
+                            A 1 month program to let college sophomores gain insight and experience in working at Nomura.
+                        </p>
+                    </div>
+                </center>
+            </div>
+            <div class= "end" id="end">
+                <center>
+                    <h4>Made with</h4>
+                    <img id="heart" src='pic/heart.PNG'>
+                </center>
+            </div>
+        </div>
+    </body>    
+</html>
